@@ -1,0 +1,37 @@
+:root {
+  --white: #ffffff;
+  --gray-100: #e1e1e6;
+  --gray-300: #c4c4cc;
+  --gray-400: #8d8d99;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #242425;
+  --gray-1000: #121214;
+  --gray-1100: #2222242a;
+  
+  --green-300: #00b37e;
+  --green-500: #00875f;
+
+  --red-500: #f75a68;
+
+  --orange-300: #ffa500;
+  --orange-500: #ad750d;
+  --orange-800: #ff6d00;
+  --orange-900: #c95c098c;
+
+  --yellow-300: #ffd600;
+  --yellow-500: #d1b1117e;
+
+  --blue-100: #40c4ff;
+  --blue-200: #40c3ff52;
+  --blue-300: #039be5;
+  --blue-500: #007acc;
+  --blue-600: #0e75b93a;
+  --blue-800: #07629e8a;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--green-500);
+}

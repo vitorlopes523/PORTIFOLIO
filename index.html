@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Roboto+Mono:wght@700 & family = Roboto:wght@400;700 & display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./src/assets/LM.png" type="image/x-icon">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="./src/assets/LM.png" alt="">
+      </div>
+
+      <nav class="navegacao">
+        <input type="checkbox" id="menu-hamburguer" />
+        <label for="menu-hamburguer">
+          <div class="menu">
+            <span class="hamburguer"></span>
+          </div>
+        </label>
+
+        <ul class="list-menus">
+          <li class="item-menu">
+            <a href="#home">Home</a>
+          </li>
+          <li class="item-menu">
+            <a href="#about">Sobre</a>
+          </li>
+          <li class="item-menu">
+            <a href="#skills">Conhecimentos</a>
+          </li>
+          <li class="item-menu">
+            <a href="#projects">Projetos</a>
+          </li>
+          <li class="item-menu">
+            <a href="#contacts">Contato</a>
+          </li>
+          <li class="item-menu">
+            <a href="https://github.com/vitorlopes523" target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="item-menu">
+            <a href="https://www.linkedin.com/in/vitor-lopes-de-matos-657261230/" target="_blank">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="home" id="home">
+        <div class="info-home">
+          <h3>Olá Mundo! 😊 Meu nome é</h3>
+          <h1 class="name">Vitor Lopes de Matos</h1>
+          <h2 class="profession">DESENVOLVEDOR FRONT-END JR</h2>
+          <button class="button">
+            <a href="#about">Saiba mais</a>
+          </button>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="image">
+          <img src="./src/assets/vitormatos.jpg" alt="">
+        </div>
+        <div class="description">
+          <h4>Quem sou eu</h4>
+          <h1>Sobre mim</h1>
+          <div class="text">
+            <p>Olá🖐️! Meu nome é Vitor Lopes, sou apaixonado por tecnologia, onde já construí diversos projetos pessoais e por meio de cursos de capacitação na área.</p>
+            <p>Atualmente estou em contato com as tecnologias HTML, CSS, JavaScript e React.JS, e tenho o objetivo de me estabelecer e seguir evoluindo dentro da área e disposto a aprender novas tecnologias🚀.</p>
+            <p>Sinta-se a vontade para entrar em contato✌️.</p>
+          </div>
+          <button class="button">
+            <a href="https://drive.google.com/file/d/1DXz1nkbUz4RFAsjobXkxASU76uSe1FVN/view?usp=share_link" target="_blank">Download CV</a>
+          </button>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <h4>O que estou estudando</h4>
+        <h1>Conhecimentos</h1>
+        <ul class="hards-skills">
+          <li class="html">
+            <img src="./src/assets/html_icon.png" alt="logo HTML">
+            <h2>HTML</h2>
+            <P>HTMl é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</P>
+          </li>
+          <li class="css">
+            <img src="./src/assets/css_icon.png" alt="logo HTML">
+            <h2>CSS</h2>
+            <p>O CSS é uma linguagem de folhas de estilos que é utilizada para definir como os documentos escritos na linguagem de marcação HTML.</p>
+          </li>
+          <li class="javascript">
+            <img src="./src/assets/js_icon.png" alt="logo HTML">
+            <h2>Javascript</h2>
+            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+          </li>
+          <li class="react">
+            <img src="./src/assets/react_icon.png" alt="logo HTML">
+            <h2>React.JS</h2>
+            <p>O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. É mantido pelo Facebook.</p>
+          </li>
+
+          <li class="typescript">
+            <img src="./src/assets/typescript_icon.png" alt="logo HTML">
+            <h2>Typescript</h2>
+            <p>TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="projects" id="projects">
+        <h4>Meus projetos</h4>
+        <h1>Projetos</h1>
+
+        <ul class="list-project">
+          <li class="project">
+            <div class="ignite-feed">
+            </div>
+
+            <div class="info-project">
+              <div class="info-tec-name">
+                <h2>Ignite Feed</h2>
+                <div class="technology">
+                  <span class="html">HTML</span>
+                  <span class="css">CSS</span>
+                  <span class="javascript">Javascript</span>
+                  <span class="react">React.JS</span>
+                  <!-- <span class="typescript">TypeScript</span> -->
+                </div>
+              </div>
+              <div class="info-description">
+                <p>Projeto desenolvido no curso Ignite da Rocketseat, para aprofundar os fundamentos do React.JS.</p>
+                <div class="links">
+                  <a href="https://github.com/vitorlopes523/igniteFeed" target="_blank" title="Repositório">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://ignite-feed-sage.vercel.app/" target="_blank" title="Deploy">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="redes-sociais">
+            </div>
+
+            <div class="info-project">
+              <div class="info-tec-name">
+                <h2>Redes Sociais</h2>
+                <div class="technology">
+                  <span class="html">HTML</span>
+                  <span class="css">CSS</span>
+                  <span class="javascript">Javascript</span>
+                </div>
+              </div>
+              <div class="info-description">
+                <p>Projeto desenolvido para expor as redes sociais do usuário.</p>
+                <div class="links">
+                  <a href="https://github.com/vitorlopes523/redes-sociais" target="_blank" title="Repositório">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://vitorlopes523.github.io/redes-sociais/" target="_blank" title="Deploy">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="dados-github">
+            </div>
+
+            <div class="info-project">
+              <div class="info-tec-name">
+                <h2>Dados GitHub</h2>
+                <div class="technology">
+                  <span class="html">HTML</span>
+                  <span class="css">CSS</span>
+                  <span class="javascript">Javascript</span>
+                </div>
+              </div>
+              <div class="info-description">
+                <p>Projeto desenvolvido consumindo a API do GitHub para buscar os usuários e expor seus repositórios.</p>
+                <div class="links">
+                  <a href="https://github.com/vitorlopes523/dados-github" target="_blank" title="Repositório">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://vitorlopes523.github.io/dados-github/" target="_blank" title="Deploy">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="pokemon">
+            </div>
+
+            <div class="info-project">
+              <div class="info-tec-name">
+                <h2>Projeto Pokémon</h2>
+                <div class="technology">
+                  <span class="html">HTML</span>
+                  <span class="css">CSS</span>
+                  <span class="javascript">Javascript</span>
+                </div>
+              </div>
+              <div class="info-description">
+                <p>Projeto desenvolvido para mostrar pokémons e suas habilidades.</p>
+                <div class="links">
+                  <a href="https://github.com/vitorlopes523/ProjetoPokemon" target="_blank" title="Repositório">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://vitorlopes523.github.io/ProjetoPokemon/" target="_blank" title="Deploy">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="landing-page">
+            </div>
+
+            <div class="info-project">
+              <div class="info-tec-name">
+                <h2>Landing Page</h2>
+                <div class="technology">
+                  <span class="html">HTML</span>
+                  <span class="css">CSS</span>
+                </div>
+              </div>
+              <div class="info-description">
+                <p>Landing Page desenvolvida para consolidar conhecimentos usando o grid no CSS.</p>
+                <div class="links">
+                  <a href="https://github.com/vitorlopes523/Projeto-landing-page-com-grid-e-flex" target="_blank" title="Repositório">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://vitorlopes523.github.io/Projeto-landing-page-com-grid-e-flex/" target="_blank" title="Deploy">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="mario-bros">
+            </div>
+
+            <div class="info-project">
+              <div class="info-tec-name">
+                <h2>Projeto Mario Bros</h2>
+                <div class="technology">
+                  <span class="html">HTML</span>
+                  <span class="css">CSS</span>
+                  <span class="javascript">Javascript</span>
+                </div>
+              </div>
+              <div class="info-description">
+                <p>Projeto desenvolvido para mostrar o trailer do filme Mario Bros.</p>
+                <div class="links">
+                  <a href="https://github.com/vitorlopes523/projeto-mario" target="_blank" title="Repositório">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://vitorlopes523.github.io/projeto-mario/" target="_blank" title="Deploy">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <form action="validacao-form.php" method="post" class="form">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="email" name="name" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/ef2c46f17f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

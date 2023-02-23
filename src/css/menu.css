@@ -1,0 +1,133 @@
+.header .navegacao .list-menus {
+  display: flex;
+  justify-content: center;
+}
+
+.navegacao .list-menus .item-menu a {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: var(--white);
+  transition: 0.3s ease-in-out;
+}
+
+.navegacao .list-menus .item-menu a:hover {
+  color: var(--green-300);
+}
+
+/* RESPONSIVE */
+
+.header .menu {
+  display: none;
+  width: 60px;
+  height: 60px;
+  align-self: flex-end;
+}
+
+.header .navegacao label {
+  display: flex;
+  flex-direction: column;
+}
+
+.header .hamburguer {
+  background-color: var(--orange-300);
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 2px;
+  top: 29px;
+  transition: 0.5s ease-in-out;
+}
+
+.header .hamburguer:before, 
+.header .hamburguer:after {
+  background-color: var(--orange-300);
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 0.2s ease-in-out;
+}
+
+.header .hamburguer:before {
+  top: -10px;
+}
+
+.header .hamburguer:after {
+  bottom: -10px;
+}
+
+.header input {
+  display: none;
+}
+
+.header input:checked ~ label .hamburguer {
+  transform: rotate(45deg);
+}
+
+.header input:checked ~ label .hamburguer:before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.header input:checked ~ label .hamburguer:after {
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .header .menu {
+    display: block;
+  }
+
+  .header .navegacao .list-menus {
+    display: none;
+  }
+
+  .header input:checked ~ .list-menus {
+    display: block;
+  }
+
+  .header .navegacao .list-menus {
+    display: none;
+  }
+
+  .header input:checked ~ .list-menus {
+    display: block;
+  }
+
+  .header .navegacao {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    z-index: 1;
+  }
+
+  .header .navegacao .list-menus {
+    width: 100vw;
+    height: 80vh;
+    background: url('../assets/Fundo.png');
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .header .navegacao .list-menus a {
+    text-align: left;
+    padding: 20px;
+    display: block;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: 0.3s ease-in;
+  }
+
+  .header .navegacao .list-menus a:hover {
+    color: var(--white);
+    background-color: var(--green-300);
+  }
+
+  .header .navegacao .list-menus a i {
+    font-size: 30px;
+  }
+}

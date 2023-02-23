@@ -1,0 +1,99 @@
+@media (max-width: 970px) {
+  .container .about {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .about .image img{
+    width: 95%;
+  }
+
+  .container .about .description {
+    width: 95%;
+    text-align: center;
+  }
+
+  .about .description .button {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1045px) {
+  .project .info-project {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project .info-project .info-tec-name {
+    text-align: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .info-project .technology {
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 900px) {
+  .projects .list-project .project {
+    width: 90%;
+  }
+
+  .container .contact {
+    width: 70%;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .container .projects .list-project {
+    padding: 0.2rem;
+  }
+
+  .projects .list-project .project {
+    width: 90%;
+  }
+
+  .project .info-project {
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .container .home .info-home {
+    color: #fff;
+    padding-left: 0;
+    text-align: center;
+  
+    align-items: center;
+    gap: 1rem;
+  }
+  
+}
+
+@media (max-width: 400px) {
+  .header .navegacao .list-menus a {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .container .home .info-home h3 {
+    font-size: 1.5rem;
+  }
+  
+  .container .home .info-home .name {
+    font-size: 3rem;
+  }
+  
+  .container .home .info-home .profession {
+    font-size: 1rem;
+  }
+
+  .container .contact {
+    width: 90%;
+  }
+}
