@@ -72,6 +72,10 @@
     align-items: center;
     gap: 1rem;
   }
+
+  .container .contact {
+    width: 100%;
+  }
   
 }
 
@@ -91,9 +95,5 @@
   
   .container .home .info-home .profession {
     font-size: 1rem;
-  }
-
-  .container .contact {
-    width: 90%;
   }
 }

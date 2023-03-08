@@ -3,6 +3,14 @@
 @import "menu.css";
 @import "responsive.css";
 
+/* html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 10em;
+} */
+
 body {
   height: 100vh;
   background-color: var(--gray-1000);
