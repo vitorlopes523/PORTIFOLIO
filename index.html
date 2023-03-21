@@ -380,32 +380,23 @@
 
       <section id="contacts" class="contact">
         <h2>Contato</h2>
-        <form action="./validacao-form.php" method="post" class="form">
-          <label>Nome</label>
+        <form
+          action="https://formsubmit.co/devvitorlopesdematos@gmail.com"
+          method="POST"
+          class="form"
+        >
+          <label for="name">Nome</label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" required />
+          <label for="message">Mensagem</label>
+          <textarea name="message" id="message" required></textarea>
+          <input type="hidden" name="_captcha" value="false" />
           <input
-            type="text"
-            name="name"
-            placeholder="Digite seu nome"
-            autocomplete="off"
-            required
+            type="hidden"
+            name="_next"
+            value="https://vitorlopes523.github.io/PORTIFOLIO/thanks"
           />
-          <label>Email</label>
-          <input
-            type="email"
-            name="name"
-            placeholder="Digite seu email"
-            autocomplete="off"
-            required
-          />
-          <label>Mensagem</label>
-          <textarea
-            name="message"
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Digite sua mensagem"
-            required
-          ></textarea>
           <button type="submit">Enviar</button>
         </form>
       </section>
@@ -421,12 +412,12 @@
         max: 25,
         speed: 400,
         glare: true,
-        "max-glare": 0.7
+        'max-glare': 0.7
       })
 
       VanillaTilt.init(document.querySelectorAll('.project'), {
         max: 5,
-        speed: 100,
+        speed: 100
       })
     </script>
   </body>
