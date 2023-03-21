@@ -370,6 +370,20 @@ h1 {
   font-size: 20px;
   margin-left: 1rem;
   color: var(--white);
+  transition: 0.2s ease-in-out;
+}
+
+.info-project .info-description a:hover {
+  transform: scale(1.1);
+  color: var(--red-500);
+}
+
+.info-project .info-description a i {
+  transition: 0.2s ease-in-out;
+}
+
+.info-project .info-description a i:hover {
+  transform: scale(1.1);
 }
 
 .contact {
