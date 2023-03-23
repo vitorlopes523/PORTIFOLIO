@@ -45,6 +45,10 @@
     width: 70%;
   }
 
+  .footer .whatsapp-link {
+    right: 6rem;
+  }
+
 }
 
 @media (max-width: 650px) {
@@ -59,6 +63,10 @@
   .project .info-project {
     gap: 0.5rem;
     padding: 1rem;
+  }
+
+  .footer .whatsapp-link {
+    right: 2rem;
   }
 
 }

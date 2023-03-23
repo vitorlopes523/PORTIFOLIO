@@ -234,6 +234,42 @@
             </div>
           </li>
           <li class="project">
+            <div class="rick-and-morty"></div>
+
+            <div class="info-project">
+              <div class="info-tec-name">
+                <h2>Rick and Morty</h2>
+                <div class="technology">
+                  <span class="html">HTML</span>
+                  <span class="css">CSS</span>
+                  <span class="javascript">Javascript</span>
+                </div>
+              </div>
+              <div class="info-description">
+                <p>
+                  Projeto desenolvido consumindo a API da série animada Rick and
+                  Morty
+                </p>
+                <div class="links">
+                  <a
+                    href="https://github.com/vitorlopes523/projeto-rick-morty"
+                    target="_blank"
+                    title="Repositório"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://vitorlopes523.github.io/projeto-rick-morty/"
+                    target="_blank"
+                    title="Deploy"
+                  >
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
             <div class="dados-github"></div>
 
             <div class="info-project">
@@ -386,11 +422,28 @@
           class="form"
         >
           <label for="name">Nome</label>
-          <input type="text" name="name" id="name" required />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Digite seu nome"
+            required
+          />
           <label for="email">E-mail</label>
-          <input type="email" name="email" id="email" required />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu email"
+            required
+          />
           <label for="message">Mensagem</label>
-          <textarea name="message" id="message" required></textarea>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Escreva uma mensagem"
+            required
+          ></textarea>
           <input type="hidden" name="_captcha" value="false" />
           <input
             type="hidden"
@@ -402,11 +455,33 @@
       </section>
     </main>
 
+    <footer class="footer">
+      <div class="texto">
+        <!-- <h1 class="titulo">Vitor Lopes de Matos</h1> -->
+        <p>©2023 Vitor Lopes de Matos</p>
+      </div>
+      <div class="whatsap">
+        <a
+          class="whatsapp-link"
+          href="https://api.whatsapp.com/send?phone=5592994463601"
+          target="_blank"
+        >
+          <img
+            id="whatsapp"
+            src="./src/assets/whatsapp.png"
+            alt="Logo do whatesapp"
+          />
+        </a>
+      </div>
+    </footer>
+
     <script
       src="https://kit.fontawesome.com/ef2c46f17f.js"
       crossorigin="anonymous"
     ></script>
+
     <script type="text/javascript" src="./src/js/vanilla-tilt.min.js"></script>
+
     <script type="text/javascript">
       VanillaTilt.init(document.querySelectorAll('.skill'), {
         max: 25,
